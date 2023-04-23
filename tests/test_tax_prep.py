@@ -1,6 +1,7 @@
 import pytest
 from ada_tax_prep.income_tax import (
-    calculate_tax_2020, calculate_deducted_income_2020, calculate_tax_liability_2020
+    calculate_tax_2020, calculate_deducted_income_2020, calculate_tax_liability_2020,
+    TaxPayer
 )
 
 from ada_tax_prep.income_tax import (
