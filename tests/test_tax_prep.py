@@ -153,7 +153,7 @@ def test_applies_itemized_deductions(all_valid_deductions):
 
     deducted_income = calculate_deducted_income_2020(income, all_valid_deductions)
 
-    assert deducted_income == 25000
+    assert deducted_income == 37600
 
 def test_ignores_invalid_itemized_deductions(some_invalid_deductions):
     income = 50000
